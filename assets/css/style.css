@@ -391,7 +391,7 @@ section {
 }
 
 .about .about-summary p {
-  line-height: 0.8;
+  margin: 0;
   color: rgb(200, 200, 200);
 }
 
