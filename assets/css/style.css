@@ -301,6 +301,58 @@ li {
 #hero .social-links a:hover {
   color: #0563bb;
 }
+#hero .social-links .linkedin:hover {
+  color: #0077b5;
+}
+#hero .social-links .twitter:hover {
+  color: #1da1f2;
+}
+#hero .social-links .facebook:hover {
+  color: #3b5998;
+}
+#hero .social-links .instagram:hover {
+  color: #e1306c;
+}
+#hero .social-links .dribbble:hover {
+  color: #ea4c89;
+}
+#hero .social-links .behance:hover {
+  color: #0057ff;
+}
+#hero .social-links .codepen:hover {
+  color: #000000;
+}
+#hero .social-links .pinterest:hover {
+  color: #cb2027;
+}
+#hero .social-links .gitlab:hover {
+  color: #e34a24;
+}
+#hero .social-links .medium:hover {
+  color: #00ab6c;
+}
+#hero .social-links .youtube:hover {
+  color: #cd201f;
+}
+#hero .social-links .reddit:hover {
+  color: #ff4500;
+}
+#hero .social-links .whatsapp:hover {
+  color: #25d366;
+}
+#hero .social-links .telegram:hover {
+  color: #0088cc;
+}
+#hero .social-links .github:hover {
+  color: #24292f;
+}
+#hero .social-links .upwork:hover {
+  color: #14a800;
+}
+#hero .social-links .stackoverflow:hover {
+  color: hsl(27deg 90% 55%);
+}
+
 @media (max-width: 992px) {
   #hero {
     text-align: center;
@@ -465,6 +517,59 @@ section {
   height: 10px;
   transition: 0.9s;
   background-color: #0563bb;
+}
+
+/**********************************/
+
+.skills .skills-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: rgb(200, 200, 200);
+}
+.skills .skills-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #0563bb;
+  position: relative;
+}
+.skills .skills-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #0563bb;
+  margin-bottom: 10px;
+}
+.skills .skills-item h5 {
+  font-size: 16px;
+  background: rgb(24, 25, 26);
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.skills .skills-item ul {
+  padding-left: 20px;
+}
+.skills .skills-item ul li {
+  padding-bottom: 10px;
+}
+.skills .skills-item:last-child {
+  padding-bottom: 0;
+}
+.skills .skills-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #0563bb;
 }
 
 /*--------------------------------------------------------------
