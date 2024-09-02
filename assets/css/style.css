@@ -352,6 +352,9 @@ li {
 #hero .social-links .stackoverflow:hover {
   color: hsl(27deg 90% 55%);
 }
+#hero .social-links .tiktok:hover {
+  color: #000;
+}
 
 @media (max-width: 992px) {
   #hero {
